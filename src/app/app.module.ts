@@ -11,6 +11,7 @@ import { TitleComponent } from './shared/list-titles/title/title.component';
 import { ModalTermosComponent } from './shared/modal-termos/modal-termos.component';
 import { MinhaListaComponent } from './shared/minha-lista/minha-lista.component';
 import { Error404Component } from './pages/error404/error404.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Error404Component } from './pages/error404/error404.component';
     TitleComponent,
     ModalTermosComponent,
     MinhaListaComponent,
-    Error404Component
+    Error404Component,
+    HomeComponent    
   ],
   imports: [
     BrowserModule,
