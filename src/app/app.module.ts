@@ -8,6 +8,7 @@ import { FullBannerComponent } from './shared/full-banner/full-banner.component'
 import { ListTitlesComponent } from './shared/list-titles/list-titles.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { TitleComponent } from './shared/list-titles/title/title.component';
+import { ModalTermosComponent } from './shared/modal-termos/modal-termos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TitleComponent } from './shared/list-titles/title/title.component';
     FullBannerComponent,
     ListTitlesComponent,
     FooterComponent,
-    TitleComponent
+    TitleComponent,
+    ModalTermosComponent
   ],
   imports: [
     BrowserModule,

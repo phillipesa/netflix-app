@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+
+  @Input()
+  modalToggle = false;
+
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.modalToggle);
+  }
+
+  setModal(){
+    this.modalToggle = true;
   }
 
 }

@@ -1,6 +1,27 @@
 <footer class="row no-gutters p-4">
-
-    <a class="col-12 col-sm-6 col-lg-3 text-reset" href="#">Termos de uso</a>
+    <app-modal-termos #modal>
+      <h1>Lorem, ipsum dolor.</h1>
+      <p>
+        Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit.
+        Earum dicta non alias distinctio,
+        aliquid aperiam ipsum provident
+        quae nihil voluptatibus veniam
+        fuga similique facilis consequatur
+        reiciendis recusandae. Velit magni
+        distinctio corporis eaque ad itaque
+        ex impedit accusamus. Debitis pariatur
+        cum quam rerum reprehenderit quod
+        iure, in explicabo facere vero nemo?
+      </p>
+      <button
+        (click)="modal.toggle();"
+        class="btn-primario">Ação</button>
+    </app-modal-termos>
+    <button (click)="modal.toggle()">
+      Mostrar modal
+    </button>
+    <a (click)="setModal();" class="col-12 col-sm-6 col-lg-3 text-reset">Termos de uso</a>
     <a class="col-12 col-sm-6 col-lg-3 text-reset" href="#">Declaração de privacidade</a>
     <a class="col-12 col-sm-6 col-lg-3 text-reset" href="#">Preferências de cookies</a>
     <a class="col-12 col-sm-6 col-lg-3 text-reset" href="#">Centro de ajuda</a>
