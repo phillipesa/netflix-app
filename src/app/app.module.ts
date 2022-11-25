@@ -9,6 +9,8 @@ import { ListTitlesComponent } from './shared/list-titles/list-titles.component'
 import { FooterComponent } from './shared/footer/footer.component';
 import { TitleComponent } from './shared/list-titles/title/title.component';
 import { ModalTermosComponent } from './shared/modal-termos/modal-termos.component';
+import { MinhaListaComponent } from './shared/minha-lista/minha-lista.component';
+import { Error404Component } from './pages/error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ModalTermosComponent } from './shared/modal-termos/modal-termos.compone
     ListTitlesComponent,
     FooterComponent,
     TitleComponent,
-    ModalTermosComponent
+    ModalTermosComponent,
+    MinhaListaComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
